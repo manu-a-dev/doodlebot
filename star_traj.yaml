@@ -1,0 +1,37 @@
+joint_names:
+  - shoulder_pan_joint
+  - shoulder_lift_joint
+  - elbow_joint
+  - wrist_1_joint
+  - wrist_2_joint
+  - wrist_3_joint
+
+points:
+  # Start
+  - {positions: [ 0.000,  -1.571,  0.000,
+                  -1.571,  0.000,  0.000 ], time_from_start: 0}
+
+  # Triangle 1
+  - {positions: [ -0.08,  -1.60,  2.40,
+                  -2.38, -1.57, -1.65 ], time_from_start: 4}   # A
+  - {positions: [ -0.04,  -0.95,  1.49,
+                  -2.11, -1.57, -1.62 ], time_from_start: 8}   # B
+  - {positions: [ 0.38,  -0.95,  1.49,
+                  -2.10, -1.57, -1.19 ], time_from_start: 12}  # C
+  - {positions: [ -0.08,  -1.60,  2.40,
+                  -2.38, -1.57, -1.65 ], time_from_start: 16}  # A
+
+  # Triangle 2
+  - {positions: [ 0.18,  -0.54,  0.72,
+                  -1.74, -1.57, -1.39 ], time_from_start: 20}  # D
+  - {positions: [ 0.39,  -1.45,  2.25,
+                  -2.36, -1.57, -1.18 ], time_from_start: 24}  # E
+  - {positions: [ -0.39,  -1.30,  2.05,
+                  -2.32, -1.57, -1.96 ], time_from_start: 28}  # F
+  - {positions: [ 0.18,  -0.54,  0.72,
+                  -1.74, -1.57, -1.39 ], time_from_start: 32}  # D
+
+  # Back to start
+  - {positions: [ 0.000,  -1.571,  0.000,
+                  -1.571,  0.000,  0.000 ], time_from_start: 36}
+
