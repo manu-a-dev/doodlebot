@@ -8,25 +8,19 @@ joint_names:
 
 points:
   # Start
-  - {positions: [ 0.000,  -1.571,  0.000,
-                  -1.571,  0.000,  0.000 ], time_from_start: 0}
+  - {positions: [0.000, -1.571, 0.000, -1.571, 0.000, 0.000], time_from_start: 0}
 
   # A
-  - {positions: [ 0.035,  -1.641,  2.461,
-                  -2.391, -1.553, -1.536 ], time_from_start: 3}
+  - {positions: [0.035, -1.641, 2.461, -2.391, -1.553, -1.536], time_from_start: 3}
 
   # B
-  - {positions: [ 0.052,  -1.274,  2.042,
-                  -2.321, -1.553, -1.536 ], time_from_start: 6}
+  - {positions: [0.052, -1.274, 2.042, -2.321, -1.553, -1.536], time_from_start: 6}
 
   # C
-  - {positions: [ 0.384,  -1.204,  1.920,
-                  -2.286, -1.553, -1.187 ], time_from_start: 9}
+  - {positions: [0.384, -1.204, 1.920, -2.286, -1.553, -1.187], time_from_start: 9}
+
   # A
-  - {positions: [ 0.035,  -1.641,  2.461,
-                  -2.391, -1.553, -1.536 ], time_from_start: 12}
-  # Back to start
-  - {positions: [ 0.000,  -1.571,  0.000,
-                  -1.571,  0.000,  0.000 ], time_from_start: 15}
+  - {positions: [0.035, -1.641, 2.461, -2.391, -1.553, -1.536], time_from_start: 12}
 
-
+  # Start
+  - {positions: [0.000, -1.571, 0.000, -1.571, 0.000, 0.000], time_from_start: 15}

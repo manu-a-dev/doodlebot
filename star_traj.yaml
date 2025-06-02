@@ -8,24 +8,19 @@ joint_names:
 
 points:
   # Start
-  - {positions: [ 0.000,  -1.571,  0.000,
-                  -1.571,  0.000,  0.000 ], time_from_start: 0}
+  - {positions: [0.000, -1.571, 0.000, -1.571, 0.000, 0.000], time_from_start: 0}
 
   # Triangle 1
-  - {positions: [ -0.02,  -1.72, 2.52,
-                  -2.37, -1.56, -1.59 ], time_from_start: 3} # A
-  - {positions: [ -0.16,  -1.01, 1.61,
-                  -2.12, -1.58, -1.73 ], time_from_start: 6} # B
-  - {positions: [ 0.43,  -1.09,  1.73,
-                  -2.21, -1.56, -1.14 ], time_from_start: 9} # C
+    # A, B, C
+  - {positions: [-0.02, -1.70, 2.52, -2.37, -1.56, -1.59], time_from_start: 3}
+  - {positions: [-0.16, -0.99, 1.61, -2.12, -1.58, -1.73], time_from_start: 6}         
+  - {positions: [0.43, -1.09, 1.73, -2.21, -1.56, -1.14], time_from_start: 9}
 
   # Triangle 2
-  - {positions: [ -0.33,  -1.49,  2.30,
-                  -2.38, -1.56, -1.90 ], time_from_start: 12} # D
-  - {positions: [ 0.25,  -0.92,  1.43,
-                 -2.09, -1.56, -1.32 ], time_from_start: 15}  # E
-  - {positions: [ -0.02,  -1.72,  2.52,
-                  -2.37, -1.56, -1.59 ], time_from_start: 18} # A
-  # Back to start
-  - {positions: [ 0.000,  -1.571,  0.000,
-                  -1.571,  0.000,  0.000 ], time_from_start: 21}
+    # D, E, A
+  - {positions: [-0.33, -1.49, 2.30, -2.38, -1.56, -1.90], time_from_start: 12}
+  - {positions: [0.25, -0.90,  1.43, -2.09, -1.56, -1.32], time_from_start: 15}
+  - {positions: [-0.02, -1.65,  2.52, -2.37, -1.56, -1.59], time_from_start: 18}
+
+  # Start
+  - {positions: [0.000, -1.571, 0.000, -1.571, 0.000, 0.000], time_from_start: 21}
