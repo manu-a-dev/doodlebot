@@ -8,12 +8,10 @@ joint_names:
 
 points:
   # Start
-  - {positions: [ 0.000,  -1.571,  0.000,
-                  -1.571,  0.000,  0.000 ], time_from_start: 0}
+  - {positions: [0.000, -1.571, 0.000, -1.571, 0.000, 0.000], time_from_start: 0}
 
   # A
-  - {positions: [ 0.03,  -1.42,  2.25,
-                  -2.40, -1.55, -1.54 ], time_from_start: 4}
+  - {positions: [0.03, -1.42, 2.25, -2.40, -1.55, -1.54 ], time_from_start: 4}
 
   # B
   - {positions: [ 0.02,  -1.17, 1.89,
