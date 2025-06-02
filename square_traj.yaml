@@ -13,24 +13,24 @@ points:
 
   # A
   - {positions: [ 0.017,  -1.710,  2.496,
-                  -2.356, -1.553, -1.552 ], time_from_start: 4}
+                  -2.356, -1.553, -1.552 ], time_from_start: 3}
 
   # B
   - {positions: [ 0.003,  -1.309,  2.059,
-                  -2.321, -1.553, -1.536 ], time_from_start: 8}
+                  -2.321, -1.553, -1.536 ], time_from_start: 6}
 
   # C
   - {positions: [ 0.401,  -1.047,  1.658,
-                  -2.182, -1.553, -1.169 ], time_from_start: 12}
+                  -2.182, -1.553, -1.169 ], time_from_start: 9}
 
   # D
   - {positions: [ 0.541,  -1.309,  2.059,
-                  -2.321, -1.553, -1.030 ], time_from_start: 16}
+                  -2.321, -1.553, -1.030 ], time_from_start: 12}
 
   # A
   - {positions: [ 0.017,  -1.710,  2.496,
-                  -2.356, -1.553, -1.552 ], time_from_start: 20}
+                  -2.356, -1.553, -1.552 ], time_from_start: 15}
   # Back to start
   - {positions: [ 0.000,  -1.571,  0.000,
-                  -1.571,  0.000,  0.000 ], time_from_start: 24}
+                  -1.571,  0.000,  0.000 ], time_from_start: 18}
 
