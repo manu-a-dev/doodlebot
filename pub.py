@@ -38,8 +38,8 @@ class Pub(Node):
             msg.points.append(traj_pt_1)
             msg.points.append(traj_pt_2)
 
-            print(traj_pt_1, "\n")
-            print(traj_pt_2, "\n")
+            # print(traj_pt_1, "\n")
+            # print(traj_pt_2, "\n")
 
             current_time += 4
 
