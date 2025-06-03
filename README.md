@@ -3,6 +3,7 @@
 ## Sources:
 You'll need to reference ROS2 Jazzy before following Alli's guide:
 > source /opt/ros/jazzy/setup.sh
+> 
 https://github.com/MRRP-lab/equipment-info/blob/main/arms.md
 
 ## Positions:
