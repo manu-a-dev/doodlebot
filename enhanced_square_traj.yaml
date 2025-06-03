@@ -17,7 +17,7 @@ points:
   - {positions: [0.02, -1.17, 1.89, -2.29, -1.55, -1.55], time_from_start: 8}
 
   # C
-  - {positions: [0.02, -0.93, 1.48, 2.12, -1.55, -1.55], time_from_start: 12}
+  - {positions: [0.02, -0.93, 1.48, -2.12, -1.55, -1.55], time_from_start: 12}
 
   # D
   - {positions: [0.17, -0.84, 1.31, -2.05, -1.55, -1.40], time_from_start: 16}
